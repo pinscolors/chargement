@@ -51,9 +51,21 @@
 @keyframes close {
   to{ z-index: -100;}
 }
-
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+html,
+body {
+	margin-left:20vh;
+	margin-right:20vh;
+	display:inline-block;
+   height: 100%;
+   background-repeat:no-repeat;
+   text-align:center,justify;
+   background-color: #333;
+   font-family: 'Quicksand', sans-serif;
+   color: white;
+}
 h1{
-
+	font-size: 3em;	
 }
 p{
 
