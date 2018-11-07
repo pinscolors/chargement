@@ -38,12 +38,23 @@
 }
 [data-loading="complete"]{
   animation: close 0s forwards;
+  animation-delay: 3s;
+}
+[data-loading="complete"] > *{
+  animation: open 1s forwards;
   animation-delay: 2s;
 }
 @keyframes open {
-  from{ height: 100vh;}
+  from{ height: 100vh; }
   to{ height: 0;}
 }
 @keyframes close {
   to{ z-index: -100;}
+}
+
+h1{
+
+}
+p{
+
 }
