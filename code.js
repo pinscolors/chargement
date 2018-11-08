@@ -9,3 +9,9 @@ var $nav = $('.menu')
 $('.togglemenu').on('click',function (){
   $nav.toggleClass('active')
 })
+
+
+var $test =
+$('p').on('click',function (){
+  console.log('test test test')
+}) 
