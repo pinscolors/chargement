@@ -16,13 +16,13 @@
 [data-loading] > *:first-child{
   top: 0;
   left: 0;
-  background: black;
+  background:black;
 }
 [data-loading] > *:last-child{
   bottom: 0;
   right: 0;
   transform: rotate(180deg);
-  background: red;
+  background: #dbaf6f;
 }
 [data-loading] > * > * {
   display: block;
@@ -31,10 +31,10 @@
   height:10vh;
   top: 45vh;
   right: 0;
-  background: red;
+  background:#dbaf6f;
 }
 [data-loading] > *:last-child>*{
-  background: black
+  background:black;
 }
 [data-loading="complete"]{
   animation: close 0s forwards;
@@ -54,19 +54,31 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 html,
 body {
-	margin-left:20vh;
-	margin-right:20vh;
-	display:inline-block;
-   height: 100%;
-   background-repeat:no-repeat;
-   text-align:center,justify;
-   background-color: #333;
-   font-family: 'Quicksand', sans-serif;
-   color: white;
+  background-attachment: fixed;
+  background: url('https://visualhunt.com/photos/1/caesars-palace-las-vegas-hotel-casino-nevada.jpg?s=l');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  background-color: #333;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+.hdp {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.page{
+
 }
 h1{
-	font-size: 3em;	
+	font-size: 3em;
+}
+h1,h3{
+  text-align:center;
+}
+h3{
+  color:
 }
 p{
-
+  letter-spacing: 2px;
 }
