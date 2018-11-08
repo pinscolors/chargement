@@ -1,3 +1,5 @@
+
+/* ecran de chargement*/
 [data-loading]{
   position: fixed;
   display: block;
@@ -51,6 +53,7 @@
 @keyframes close {
   to{ z-index: -100;}
 }
+/*fin d'ecran de chargement*/
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 html,
 body {
@@ -82,3 +85,24 @@ h3{
 p{
   letter-spacing: 2px;
 }
+/*
+burger menu
+*/
+.togglemenu {
+  display:block; width:1em;height:1em;
+  background:url("https://svgshare.com/i/66Z.svg") center no-repeat; background-size:contain;
+  position:absolute; right:0; top:0; margin:.5em;
+}
+
+/*.menu {visibility:hidden;}
+.menu.active {visibility:visible;}*/
+
+.menu {
+  text-align:center;
+  ul {list-style:none; padding-left:0;padding-right:0;}
+
+  position:absolute;left:50%;top:50%; transform:translate(-50%,-50%);
+}
+
+.menu {display:none;}
+.menu.active {display:block;color:white;background:#333;height:8em;width:8em}

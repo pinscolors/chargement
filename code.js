@@ -4,3 +4,8 @@ window.addEventListener("load", function () {
   node.setAttribute("data-loading","complete");
 })
 //carrousel
+// burger togglemenu
+var $nav = $('.menu')
+$('.togglemenu').on('click',function (){
+  $nav.toggleClass('active')
+})
